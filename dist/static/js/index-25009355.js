@@ -1,0 +1,1 @@
+import{q as e}from"./vendor-5e4eeeb9.js";const i=e({id:"app",state:()=>({config:"app",codeGiveTimeLimit:0}),actions:{setData(e){console.log(e),this.config=e},sendCode(){if(this.codeGiveTimeLimit<=0){let e;clearInterval(e),this.codeGiveTimeLimit=30,e=setInterval((()=>{this.codeGiveTimeLimit--}),1e3)}}}});export{i as u};
